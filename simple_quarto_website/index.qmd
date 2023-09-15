@@ -1,0 +1,113 @@
+---
+title: "5000-lab-1.2"
+format:
+    html: 
+     toc: true
+     html-math-method: mathjax
+bibliography: reference.bib
+---
+
+
+---
+toc: true
+toc-depth: 3
+toc-title: Contents
+---
+* ## Topics
+    + Artificial Intelligence
+    + Machine Learning
+    + Sentiment Analysis vs. Emotion Analysis
+---
+
+
+# Artificial Intelligence
+
+
+> “Is artificial intelligence less than our intelligence?”
+—Spike Jonze [^1]
+
+
+---
+| Branch | Pioneer | Country | 
+|---------|:-----|------:|
+| Natural Language Processing      | Alan Turing   |    England |   
+| Neural Networks     | Kunihiko Fukushima  |   Japan | 
+| Machine Learning       | Arthur Samuel    |     United States of America |   
+: Artificial Intelligence Background
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+---
+
+
+# Natural Language Processing
+* ### Can be used to simplify jargon in text
+* ### Can be used to analyze sentiments behind text
+* ### Can be used to conclude main ideas through keywords
+
+{{< video https://www.youtube.com/watch?v=fOvTtapxa9c width=“800” height=“500” >}}
+
+### Popular Formulas Implemented:
+    + Bayes' Theorem: $P(A|B) = \frac{P(B|A) * P(A)} {P(B)}$
+    + Linear Regression: $Y = a + bX + ε$
+    + Cosine Similarity: $\frac{a . b} {||a|| . ||b||}$
+
+---
+\vspace{1em}
+
+$$P(liking apples|love pears) = \frac{P(pears|liking apples) * P(liking apples)} {P(loving pears)}$$
+
+\vspace{1em}
+---
+
+
+
+# Sentiment Analysis vs. Emotion Analysis
+
+:::: {.columns}
+::: {.column width="50%"}
+### Sentiment Analysis
+
+* Can separate text as positive and negative experiences
+* In turn is useful for examining consensus
+:::
+
+::: {.column width="50%"}
+### Emotion Analysis
+
+* Incorporates the range of human emotion
+* Yields more detailed information on consumer preference and experience
+
+:::
+::::
+
+
+::: {.panel-tabset}
+### Sentiment Analysis
+
+![](https://www.voxco.com/wp-content/uploads/2021/09/Sentiment-Analysis1.jpg){fig-align="left" width="6.62in"}
+
+### Emotional Analysis
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QbnbVSRoAyqLG76ZtF-oew.png){fig-align="left" width="6.14in"}
+:::
+
+
+## Citation
+ipsum lorem [see @2017, pp. 1-20]
+
+ipsum lorem [see @10.1037/pne0000216, pp.120]
+
+## References
+
+::: {refs}
+:::
+
+[^1]: https://en.wikipedia.org/wiki/Spike_Jonze
